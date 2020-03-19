@@ -29,13 +29,12 @@ end
   # Your code here
 
 
-def long_planeteer_calls(calls_long)
-  
-  calls_long.any? {|calls| calls.length > 4}
-  
+def long_planeteer_calls(planeteer_calls)
+  planeteer_calls.any? { |call| call.length > 4 }
 end
 
-long_planeteer_calls(calls_long)
+long_planeteer_calls(planeteer_calls)
+
 
 def find_the_cheese# code an argument here
   # the array below is here to help
