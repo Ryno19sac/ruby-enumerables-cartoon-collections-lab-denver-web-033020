@@ -31,7 +31,7 @@ end
 
 def long_planeteer_calls(calls_long)
   
-  calls_long.any? {|calls| calls > 4}
+  calls_long.any? {|calls| calls.length > 4}
   
 end
 
