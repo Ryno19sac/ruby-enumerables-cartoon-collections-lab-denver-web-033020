@@ -23,7 +23,7 @@ planeteer_calls = %w[earth wind fire water heart]
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map {|calls| calls.capitalize + '!'
-  puts planeteer_calls
+  puts summon_captain_planetplaneteer_calls
   
   # Your code here
 end
