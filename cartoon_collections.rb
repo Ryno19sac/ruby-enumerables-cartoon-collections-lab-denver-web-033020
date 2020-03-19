@@ -1,6 +1,6 @@
 def roll_call_dwarves(names)
     dwarves = []
-    names.map = 
+    dwarves.map = names.map {|nam|  
   
   
   # code an argument here
