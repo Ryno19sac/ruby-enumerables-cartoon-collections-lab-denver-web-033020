@@ -1,6 +1,6 @@
 def roll_call_dwarves(names)
     dwarves = []
-    
+    names
   
   
   # code an argument here
