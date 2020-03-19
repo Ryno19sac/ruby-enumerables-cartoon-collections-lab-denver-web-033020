@@ -5,6 +5,8 @@ def roll_call_dwarves(dwarves)
 end
 
 roll_call_dwarves(dwarves)
+
+roll_call_dwarves(dwarves)
   # code an argument here
   # Your code here
 
